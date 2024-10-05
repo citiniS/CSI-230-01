@@ -1,8 +1,9 @@
-﻿clear
+#NOTE: IF 1 IS DISPLAYED 2 DOES NOT DISPLAY FOR SOME REASON. MAYBE FORMATTING ISSUE
+ clear
 .'C:\Users\champuser\CSI-230-01\week2\Question 4 code.ps1'
 . C:\Users\champuser\CSI-230-01\week6\Event-Logs.ps1
 . C:\Users\champuser\CSI-230-01\week4\Apache-Logs.ps1
-#. C:\Users\champuser\CSI-230-01\week6\main.ps1
+
 
 
 $Prompt = "`n"
