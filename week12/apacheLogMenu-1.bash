@@ -60,7 +60,7 @@ function frequentVisitors(){
 # Hint: there are examples in slides
 function suspiciousVisitors(){
 	
-	cat "$logFile" | egrep -i -f "ioc.txt" | cut -d ' ' -f 1 | sort -n | uniq -c 
+	cat "$logFile" | egrep -i -f ioc.txt | cut -d ' ' -f 1 | sort -n | uniq -c 
 }
 # Keep in mind that I have selected long way of doing things to 
 # demonstrate loops, functions, etc. If you can do things simpler,
