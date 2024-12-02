@@ -81,7 +81,6 @@ do
 	   fi
 	;;
 	?)
-	  echo "$0: Illegal option -- $option"
 	  helpmenu
 	esac
 done 
